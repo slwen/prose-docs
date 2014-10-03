@@ -4,7 +4,6 @@ branches:
   - master
 before_install:
   - gem install sass
-  - gem install compass
 script:
 - bundle exec jekyll build
 - "./build.sh"
