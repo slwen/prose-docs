@@ -1,0 +1,10 @@
+language: ruby
+
+branches:
+  only:
+    - master
+
+script:
+  - "bundle exec jekyll build" 
+  - ./build.sh
+
