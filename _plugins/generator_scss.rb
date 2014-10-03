@@ -8,6 +8,7 @@
 # Config file placed in ./_sass/config.rb
 #
 
+require 'bundler'
 require 'sass'
 require 'pathname'
 require 'compass'
