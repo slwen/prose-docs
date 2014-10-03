@@ -2,6 +2,7 @@ language: ruby
 branches:
   only:
   - master
+  - gh-pages
 before_install:
   - gem install sass
 script:
