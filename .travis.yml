@@ -2,9 +2,9 @@ language: ruby
 branches:
   only:
   - master
-before_script:
-- 'gem install sass'
-- 'gem install compass'
+before_install:
+  - gem install sass
+  - gem install compass
 script:
 - bundle exec jekyll build
 - "./build.sh"
