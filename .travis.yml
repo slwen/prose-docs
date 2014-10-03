@@ -3,8 +3,8 @@ branches:
   only:
   - master
 before_script:
-- 'gem install sass
-- 'gem install compass
+- 'gem install sass'
+- 'gem install compass'
 script:
 - bundle exec jekyll build
 - "./build.sh"
