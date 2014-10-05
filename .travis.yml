@@ -8,4 +8,4 @@ script:
 - bundle exec jekyll build
 - bundle exec rake travis
 env:
-	secure: "UX9zPw/PbCvYgfOCGnTb8ijmpaB/V3wziMzfhh9bS+48Yzupl8msdEMtFNz3FV6RRDpjq4Ke6ObhBtZUM1HzWKE5p73eFw1771MtKlhtwPeMfo8tkrQxD7GSvvYicmc6wB38FoCV9mPBJvJQ+GKvSN8qyVCv25oTCtbgPoHt4FY="
+  secure: "UX9zPw/PbCvYgfOCGnTb8ijmpaB/V3wziMzfhh9bS+48Yzupl8msdEMtFNz3FV6RRDpjq4Ke6ObhBtZUM1HzWKE5p73eFw1771MtKlhtwPeMfo8tkrQxD7GSvvYicmc6wB38FoCV9mPBJvJQ+GKvSN8qyVCv25oTCtbgPoHt4FY="
