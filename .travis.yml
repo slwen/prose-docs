@@ -6,7 +6,6 @@ before_install:
 - gem install sass
 script:
 - bundle exec jekyll build
-- "./build.sh"
-global:
-  env:
-    secure: lAboHR0Rnyv2eSQPbmhqfAYW9yX/55ByXSv/9r9g0bWZLeIUYrvbNltHB72TwpICfLIFZKvr3EVfcFl0DXjF+vbgZc4P/5TpbstkjybYHBBu3p2ZCTWLGvPWrI5kK6FJzCjDbTJoS21t7qp0ITmbLFc+WkJVbtRbObCua65gVZg=
+- bundle exec rake travis
+env:
+	secure: "UX9zPw/PbCvYgfOCGnTb8ijmpaB/V3wziMzfhh9bS+48Yzupl8msdEMtFNz3FV6RRDpjq4Ke6ObhBtZUM1HzWKE5p73eFw1771MtKlhtwPeMfo8tkrQxD7GSvvYicmc6wB38FoCV9mPBJvJQ+GKvSN8qyVCv25oTCtbgPoHt4FY="
