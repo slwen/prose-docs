@@ -4,7 +4,6 @@ branches:
   - master
 before_install:
 - gem install sass
-- gem install rake
 script:
 - bundle exec jekyll build
 - bundle exec rake travis
