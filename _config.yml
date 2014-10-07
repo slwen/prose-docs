@@ -6,6 +6,10 @@ org_name: slwen
 repo_name: prose-docs
 prose_branch: master
 
+sass:
+  sass_dir: /style/
+  style: :compressed
+
 # Build settings
 markdown: kramdown
 
