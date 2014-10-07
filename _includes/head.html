@@ -21,6 +21,12 @@
     <script src="{{ "/js/app/search.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/app/toc.js" | prepend: site.baseurl }}"></script>
 
+	<script>
+		$(function() {
+			setupLanguages(["shell","ruby","python"]);
+		});
+	</script>
+
     <link rel="stylesheet" href="{{ "/style/screen.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
