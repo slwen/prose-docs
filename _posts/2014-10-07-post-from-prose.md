@@ -1,5 +1,9 @@
 ---
 published: true
+layout: post
+title:  "Welcome to Jekyll! 2"
+date:   2014-10-02 12:06:32
+categories: jekyll update
 ---
 
 ## A New Title
